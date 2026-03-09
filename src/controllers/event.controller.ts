@@ -9,13 +9,15 @@ export class EventController {
     this.eventService = new EventService();
   }
 
-  public getAllEvents = catchAsync(async (req: Request, res: Response): Promise<void> => {
-    const events = await this.eventService.getAllEvents();
-    
-    res.status(200).json({
-      status: 'success',
-      results: events.length,
-      data: events
-    });
-  });
+  public getAllEvents = catchAsync(
+    async (req: Request, res: Response): Promise<void> => {
+      const events = await this.eventService.getAllEvents();
+
+      res.status(200).json({
+        status: 'success',
+        results: events.length,
+        data: events,
+      });
+    },
+  );
 }
