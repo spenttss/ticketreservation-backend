@@ -52,6 +52,8 @@ npm install
 npm run dev
 ```
 
+<img width="933" height="310" alt="Image" src="https://github.com/user-attachments/assets/48ff7078-c589-4a87-af8c-29b06088f723" />
+
 ---
 
 ## Testing
@@ -60,6 +62,8 @@ Run the full integration suite to verify business logic:
 ```bash
 npm test
 ```
+
+<img width="216" height="34" alt="Image" src="https://github.com/user-attachments/assets/4fc3f412-57db-42ea-a8a0-d5f842ad1bf8" />
 
 ---
 
